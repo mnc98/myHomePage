@@ -14,10 +14,6 @@ html {
     line-height: 1.4;
 }
 
-p {
-    font-family: Sans-serif;
-}
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -95,8 +91,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+li {
+     display:inline;
+   }
+ul {
+     margin: 0px;
+     padding: 0px;
+}
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner {
+  clear: both;
+  background-image: url("../img/ibiza.jpg");
+  height: 404px;
+  background-size: cover;
+  width: 960px;
+  background-repeat: no-repeat;
+}
+#banner h1 {
+  margin: 0px;
+  padding: 0px;
+}
+#header {
+  background-color:red;
+  height: 70px;
+  line-height: 70px;
+}
+#menu {
+  background-color:blue;
+  width: 593px;
+  float: left;
 
+}
+#menu a {
+  color: white;
+}
 
+#logo {
+  background-color: green;
+  width: 367px;
+  float: left;
+}
+#logo h1 {
+  padding: 0px;
+  margin: 0px;
+}
+#feature1, #feature2, #feature3 {
+  float: left;
+  width: 320px;
+
+}
+#banner img {
+  width: 100%;
+}
+#footer {
+  background-color: orange;
+  clear: both;
+}
 
 
 
