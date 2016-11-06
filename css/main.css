@@ -94,6 +94,10 @@ ul {
      margin: 0px;
      padding: 0px;
 }
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
 #wrapper {
   width: 960px;
   margin-left: auto;
