@@ -122,6 +122,7 @@ ul {
   line-height: 70px;
 }
 #menu {
+  font-family: "Arial";
   background-color:black;
   width: 593px;
   float: left;
