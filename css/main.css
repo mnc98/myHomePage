@@ -113,6 +113,8 @@ ul {
   background-repeat: no-repeat;
 }
 #banner h1 {
+  font-family: "Verdana"; 
+  font-style: italic;
   margin: 0px;
   padding: 0px;
 }
@@ -122,7 +124,7 @@ ul {
   line-height: 70px;
 }
 #menu {
-  font-family: "Bouquet";
+  font-family: "Arial";
   background-color:black;
   width: 593px;
   float: left;
