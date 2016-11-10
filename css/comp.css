@@ -6,7 +6,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-    background: #fff url(http://www.thedigitalbridges.com/wp-content/uploads/2015/11/internet-small-world.jpg) no-repeat bottom right; 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -41,7 +41,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(http://assets-cdn.ekantipur.com/images/third-party/money-finance/29112015093328inter.jpg) no-repeat top left; 
+	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
