@@ -75,7 +75,7 @@ Layout styles
 
 .container
 {
-	background:url('http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960') no-repeat center top #FFF
+	background:url('http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960') no-repeat center top #FFF;
     max-width: 50em;
 	margin: 0 auto;
 }
