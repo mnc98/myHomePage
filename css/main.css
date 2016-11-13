@@ -111,10 +111,10 @@ ul {
   clear: both;
   color: #fff;
   background-image: url("http://media.rhizome.org/blog/9583/Contra-Internet-Middle.gif");
-  height: 554px;
-  background-size: cove
-  width: 960px;
-  background-repeat: no-repeat;
+  max-width:100%; 
+  max-height:100%;
+  margin:auto;
+  display:block;
 }
 #banner h1 {
   font-family: "Verdana"; 
