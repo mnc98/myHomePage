@@ -88,8 +88,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background-image: url("http://wallpapercave.com/wp/lf6n9hT.png");
-    background-size:100% 100%;
+    margin: 0;
+	padding: 0;
+	color: #333;
+    background-color: #eee;
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 }
 
 li {
@@ -143,18 +146,13 @@ ul {
 #logo h1 {
   padding: 0px;
   margin: 0px;
-/*
-*#feature1, #feature2, #feature3 {
-  *float: left;
-  *width: 320px;
-*/
 
 }
 #banner img {
   width: 100%;
 }
 #footer {
-  background-color: orange;
+  background-color: black;
   clear: both;
 }
 
