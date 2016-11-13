@@ -109,9 +109,10 @@ ul {
 }
 #banner {
   clear: both;
-  background-image: url("https://www.heartbreakers.com.au/newsite/wp-content/uploads/2012/05/macbook-air-all-faded-and-stuff-002.jpg");
+  color: #fff;
+  background-image: url("http://media.rhizome.org/blog/9583/Contra-Internet-Middle.gif");
   height: 554px;
-  background-size: cover;
+  background-size: cove
   width: 960px;
   background-repeat: no-repeat;
 }
