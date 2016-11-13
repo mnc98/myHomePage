@@ -82,8 +82,8 @@ Layout styles
 .header
 {
     background:url('http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960') no-repeat center top #FFF;
-    /*color: #fff;
-	background: #999;*/
+    color: #fff;
+	/*background: #999;*/
 	padding: 1em 1.25em;
 }
 
