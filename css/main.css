@@ -107,14 +107,15 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 #banner {
-  /*clear: both;
-  color: #fff;
-  background-image: url("http://media.rhizome.org/blog/9583/Contra-Internet-Middle.gif") no-repeat center #eee;*/
     background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;
   background-size: cover;
-  height: 100vh; }
-  .hero:before {
+  height: 100vh;
+    color: #fff;
+}
+  
+.hero:before {
     content: '';
     position: absolute;
     top: 0;
