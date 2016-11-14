@@ -113,6 +113,7 @@ ul {
   background-size: cover;
   height: 100vh;
     color: #fff;
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 }
   
 .hero:before {
