@@ -9,7 +9,8 @@ body
 	color: #333;
 	background-color: #eee;
 	/*font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;*/
-    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    /*font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;*/
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -65,13 +66,13 @@ Layout styles
 	margin: 0 auto;
 }
 
-.header
+/*.header
 {
     background:url('http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960') no-repeat center top #FFF;
     color: #fff;
-	/*background: #999;*/
+	/*background: #999;
 	padding: 1em 1.25em;
-}
+}*/
 
 .header-heading { margin: 0; }
 
