@@ -135,11 +135,11 @@ ul {
 }
 #header {
   background-color:red;
-  height: 70px;
-  line-height: 70px;
+  height: 50px;
+  line-height: 50px;
 }
 #menu {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   background-color:black;
   width: 593px;
   float: left;
