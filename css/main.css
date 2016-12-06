@@ -135,8 +135,8 @@ ul {
 }
 #header {
   background-color:red;
-  height: 50px;
-  line-height: 200px;
+  height: 200px;
+  line-height: 25px;
 }
 #menu {
   font-family: 'Source Code Pro', monospace;
