@@ -1,354 +1,244 @@
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/* -----------------------
+Base styles
+------------------------*/
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-body {
-    margin: 0;
+body
+{
+	margin: 0;
 	padding: 0;
 	color: #333;
-    background-color: #eee;
+	background-color: #eee;
+	/*font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;*/
+    /*font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;*/
     font-family: 'Source Code Pro', monospace;
 }
 
-li {
-     display:inline;
-   }
-ul {
-     margin: 0px;
-     padding: 0px;
-}
-#wrapper {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+h1,h2,h3,h4,h5,h6
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
 }
 
-#banner {
-    background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;
-  background-size: cover;
-  height: 100vh;
+h1 { font-size: 2.25em;
+    font-family: 'Maven Pro', sans-serif;
+   }/* 36px */
+h2 { font-size: 1.75em; } /* 28px */
+h3 { font-size: 1.375em;
+    font-family: 'Catamaran', sans-serif;
+   }/* 22px */
+h4 { font-size: 1.125em;
+     font-family: 'Catamaran', sans-serif;
+   }/* 18px */
+h5 { font-size: 1em; } /* 16px */
+h6 { font-size: .875em; } /* 14px */
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+hr
+{
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+th, td
+{
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+a:link { color: royalblue; }
+a:visited { color: purple; }
+a:focus { color: black; }
+a:hover { color: green; }
+a:active { color: red; }
+
+/* -----------------------
+Layout styles
+------------------------*/
+
+.container
+{
+    max-width: 50em;
+	margin: 0 auto;
+}
+
+/*.header
+{
+    background:url('http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960') no-repeat center top #FFF;
     color: #fff;
-    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-}
-  
-.hero:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
-    opacity: .8;
- 
-}
-#banner h1 {
-  font-family: 'Catamaran', sans-serif;
-  font-style: italic;
-  margin: 0px;
-  padding: 0px;
-}
-#header {
-  background-color:red;
-  height: 25px;
-  line-height: 25px;
-}
-#menu {
-  font-family: 'Source Code Pro', monospace;
-  background-color:black;
-  width: 593px;
-  float: left;
-  text-align: center;
+	/*background: #999;
+	padding: 1em 1.25em;
+}*/
 
-}
-#menu a {
-  color: white;
+.header-heading { margin: 0; }
+
+.nav-bar
+{
+	background: #000;
+	padding: 0;
 }
 
-#logo {
-  background-color: red;
-  width: 367px;
-  float: left;
-}
-#logo h1 {
-  padding: 0px;
-  margin: 0px;
-
-}
-#banner img {
-  width: 100%;
-}
-#footer {
-  background-color: black;
-  clear: both;
+.content
+{
+	padding: 1em 1.25em;
+	background-color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-    display: none !important;
+.footer
+{
+	color: #fff;
+	background: #000;
+	padding: 1em 1.25em;
 }
 
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
+/* -----------------------
+Nav
+------------------------*/
 
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+.nav
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.nav li
+{
+	display: inline;
+	margin: 0;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
+.nav a
+{
+	display: block;
+	padding: .7em 1.25em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.nav a:focus
+{
+	color: black;
+	background-color: white;
 }
 
-.clearfix:after {
-    clear: both;
+.nav a:hover
+{
+	color: white;
+	background-color: green;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+.nav a:active
+{
+	color: white;
+	background-color: red;
 }
 
-@media print,
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+/* -----------------------
+Single styles
+------------------------*/
+
+.img-responsive { max-width: 100%; }
+
+.btn
+{
+	color: #fff !important;
+	background-color: royalblue;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+.btn:hover
+{
+	color: #fff !important;
+	background-color: green;
+}
 
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    p:first-line,
-    div:first-line,
-    blockquote:first-line,
-    li:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+.btn:focus
+{
+	color: #fff !important;
+	background-color: black;
+}
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+.btn:active
+{
+	color: #fff !important;
+	background-color: red;
+}
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+.table
+{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
 
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+/* -----------------------
+Wide styles
+------------------------*/
 
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+@media (min-width: 42em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+	.footer { padding: 2em 3em; }
+	
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+	
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
 }
